@@ -1,0 +1,80 @@
+.msg1, .msg2, .msg3{
+    width: 60%;
+    position: relative;
+    left: 20%;
+}
+.msg1 .heading, .msg2 .heading, .msg3 .heading{
+color: rgb(0, 0, 0);
+text-align: center;
+font-size: 40px;
+letter-spacing: 5px;
+text-decoration: underline;
+font-family: 'Times New Roman', Times, serif;
+margin: 10px 0px;
+}
+
+.msg1 .text, .msg2 .text, .msg3 .text{
+        color: black;
+        text-align: justify;
+        font-size: 20px;
+        letter-spacing: 2px;
+
+}
+.msg1 .name, .msg2 .name{
+    color: #000066;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+.msg1 img, .msg2 img, .msg3 img{
+    width: 250px;
+    height: 250px;
+    position: relative;
+    float:left;
+    border: 5px double grey;
+    margin: 10px 10px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+
+    .msg1, .msg2, .msg3{
+        width: 99%;
+        position: relative;
+        left: 0%;
+    }
+    .msg1 .heading, .msg2 .heading, .msg3 .heading{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0px;
+    }
+    
+    .msg1 .text, .msg2 .text, .msg3 .text{
+            color: black;
+            text-align: justify;
+            font-size: 18px;
+            letter-spacing: 1px;
+            margin: 5px;
+    }
+    .msg1 .name, .msg2 .name{
+        color: #000066;
+        font-size: 20px;
+        letter-spacing: 3px;
+        font-weight: bold;
+    }
+    .msg1 img, .msg2 img, .msg3 img{
+        width: 250px;
+        height: 250px;
+        position: relative;
+        float:left;
+        border: 5px double grey;
+        margin: 10px 10px;
+    }
+    
+
+}
