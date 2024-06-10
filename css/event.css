@@ -1,0 +1,57 @@
+.heading{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 100%;
+}
+table{
+    min-width: 50%;
+    text-align: center;
+    border: 1px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    border-spacing: 2px;
+}
+.event th{
+    background-color: rgb(15, 15, 73);
+    font-size: 20px;
+    color: white;
+
+}
+.event td{
+    padding: 10px;  
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .event{
+        overflow-x: auto;
+    }
+    .heading{
+        text-align: center;
+        font-size: 35px;
+        color: rgb(0, 0, 0);
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        width: 100%;
+    }
+    table{
+        min-width: 98%;
+        max-width: 98%;
+        text-align: center;
+        border: 1px solid black;
+        font-family: 'Times New Roman', Times, serif;
+        border-spacing: 2px;
+    }
+    .event th{
+        font-size: 20px;
+    
+    }
+    .event td{
+        padding: 5px;  
+    }
+    
+
+}
