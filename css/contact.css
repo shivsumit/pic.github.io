@@ -1,0 +1,116 @@
+.heading{
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+}
+
+
+.help1, .help2, .help3{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 28%;
+    position: relative;
+    left: 23%;
+    z-index: 1;
+    background-color: white;
+  }
+  
+  .help1:hover,.help2:hover,.help3:hover {
+    box-shadow: 0 8px 16px 0 rgba(11, 3, 103, 0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+    font-weight: bold;
+    text-align: center;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .text, .text a{
+    color: blue;
+    padding: 10px 5px;
+    letter-spacing: 2px;
+  }
+  img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+  }
+  iframe{
+    position: absolute;
+    right:12%;
+    top:0px;
+    border: 0px;
+    background-color: rgb(207, 204, 204);
+    padding: 10px;
+
+  }
+  .helpcon{
+    position: relative;
+  }
+
+
+  @media only screen and (max-width: 600px){
+    .heading{
+      color: rgb(8, 8, 94);
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+      padding: 5px;
+  }
+  
+  
+  .help1, .help2, .help3{
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      width: 97%;
+      margin: 5px 0px;
+      padding: 5px 2px;
+      display: block;
+      position: relative;
+      left: 1%;
+      z-index: 1;
+      background-color: white;
+      border: 1px solid red;
+    }
+    
+    .help1:hover,.help2:hover,.help3:hover {
+      box-shadow: 1 8px 16px 0 rgba(11, 3, 103, 0.2);
+
+    }
+    
+    .container {
+      padding: 2px 16px;
+      font-weight: bold;
+      text-align: center;
+      color: red;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .text, .text a{
+      
+      padding: 10px 5px;
+      letter-spacing: 2px;
+    }
+    img{
+      width: 80px;
+      height: 80px;
+      text-align: center;
+    }
+    iframe{
+      position: relative;
+      width: 97%;
+      background-color: rgb(235, 84, 84);
+      padding: 3px;
+      left: 1%;
+      margin: 5px 0px;
+  
+    }
+    .helpcon{
+      position: relative;
+    }
+  
+  }
